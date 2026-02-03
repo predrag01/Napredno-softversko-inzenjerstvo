@@ -26,6 +26,7 @@ Pozicioniraj se u folder **PatientSupport** (gde se nalazi `docker-compose.yml`)
 
 ```bash
 docker compose up --build
+```
 
 ### **2) Build / pokretanje frontenda**
 
@@ -34,3 +35,4 @@ U folderu klijenta (PatientSupport/patientsupport.client) pokreni:
 ```bash
 npm install
 npm run dev
+```
