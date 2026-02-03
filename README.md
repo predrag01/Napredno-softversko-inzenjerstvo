@@ -36,3 +36,41 @@ U folderu klijenta (PatientSupport/patientsupport.client) pokreni:
 npm install
 npm run dev
 ```
+
+## Demo nalozi (Seed podaci)
+
+Prilikom prvog pokretanja aplikacije baza se automatski popunjava testnim korisnicima.
+
+### Administrator
+- **Email:** admin@gmail.com  
+- **Password:** admin123  
+
+### Doktori
+- **Email:** marko.petrovic@gmail.com  
+  **Password:** doctor123  
+
+- **Email:** ivana.jovanovic@gmail.com  
+  **Password:** doctor123  
+
+- **Email:** nenad.stankovic@gmail.com  
+  **Password:** doctor123  
+  *(nalog je inicijalno deaktiviran)*
+
+### Pacijenti
+Svi pacijenti koriste isti password.
+
+- **Password:** patient123  
+
+| Email |
+|------|
+| milan.ilic@gmail.com |
+| ana.kovacevic@gmail.com |
+| nikola.petrovic@gmail.com |
+| jovana.stojanovic@gmail.com |
+| marko.djordjevic@gmail.com |
+| ivana.jankovic@gmail.com |
+| stefan.nikolic@gmail.com |
+| marija.milovanovic@gmail.com |
+| aleksandar.radovanovic@gmail.com |
+| katarina.tomic@gmail.com |
+
