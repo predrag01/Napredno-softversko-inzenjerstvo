@@ -39,7 +39,7 @@ npm run dev
 ```
 ### **3) Pokretanje skipte koja simulira IoT uredjaje**
 
-Aplikacija očekuje ulazne podatke (očitanja) koji se šalju u **Apache Kafka** topic **`reading-data`**.  
+Aplikacija očekuje ulazne podatke koji se šalju u **Apache Kafka** topic **`reading-data`**.  
 Da bi se generisala testna očitavanja, potrebno je pokrenuti Python skriptu koja simulira IoT uređaj i periodično šalje poruke na Kafka broker (`localhost:9092`).
 
 ### Preduslovi
