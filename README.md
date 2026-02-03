@@ -31,7 +31,7 @@ docker compose up --build
 
 ### **2) Build / pokretanje frontenda**
 
-U folderu klijenta (PatientSupport/patientsupport.client) pokreni:
+U folderu klijenta (_PatientSupport/patientsupport.client_) pokreni:
 
 ```bash
 npm install
