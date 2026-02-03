@@ -3,8 +3,7 @@
 # Implementacija mikroservisnog sistema za obradu medicinskih podataka putem Apache Kafka poruka (PatientSupport)
 
 ## Opis
-PatientSupport je web aplikacija koja demonstrira primenu event-driven mikroservisne arhitekture u obradi medicinskih podataka u realnom vremenu. Sistem prikuplja (simulira) očitavanja vitalnih parametara, obrađuje ih asinhrono i omogućava reakcije kao što su analiza stanja, obaveštavanje i zakazivanje termina. Iako je domen zdravstvo, fokus projekta je arhitektura i komunikacija mikroservisa zasnovana na događajima.  
-Korišćene tehnologije uključuju .NET servise, React klijentsku aplikaciju i posrednika događaja (Kafka) radi skalabilne i pouzdane asinhrone komunikacije. 
+PatientSupport je web aplikacija koja demonstrira primenu event-driven mikroservisne arhitekture u obradi medicinskih podataka u realnom vremenu. Sistem prikuplja (simulira) očitavanja vitalnih parametara, obrađuje ih asinhrono i omogućava reakcije kao što su analiza stanja, obaveštavanje i zakazivanje termina. Iako je domen zdravstvo, fokus projekta je arhitektura i komunikacija mikroservisa zasnovana na događajima.
 
 ## Tehnologije
 - .NET (ASP.NET Web API)  
