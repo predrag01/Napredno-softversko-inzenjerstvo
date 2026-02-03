@@ -8,11 +8,12 @@ Korišćene tehnologije uključuju .NET servise, React klijentsku aplikaciju i p
 
 ## Tehnologije
 - .NET (ASP.NET Web API)  
-- React (Vite)  
-- SignalR (real-time obaveštavanje)  
+- React  
+- SignalR  
 - Apache Kafka (event-driven komunikacija)  
-- Microsoft SQL Server (baze po servisima)  
-- Redis (keširanje / brži pristup podacima)  
+- Microsoft SQL Server  
+- Redis
+- Python
 - Docker  
 
 ## Pokretanje projekta
@@ -36,6 +37,46 @@ U folderu klijenta (PatientSupport/patientsupport.client) pokreni:
 npm install
 npm run dev
 ```
+### **3) Pokretanje skipte koja simulira IoT uredjaje**
+
+Aplikacija očekuje ulazne podatke (očitanja) koji se šalju u **Apache Kafka** topic **`reading-data`**.  
+Da bi se generisala testna očitavanja, potrebno je pokrenuti Python skriptu koja simulira IoT uređaj i periodično šalje poruke na Kafka broker (`localhost:9092`).
+
+### Preduslovi
+- Python 3.x
+- Instalirane biblioteke: `kafka-python`, `pytz`
+
+Instalacija zavisnosti:
+
+```bash
+pip install kafka-python pytz
+```
+
+### Pokretanje skirpte
+Pozicionirati se u folder _PatientSupport/PatientSuport.DeviceService_
+Skripta prima dva argumenta:
+
+--patient-id (ID pacijenta)
+
+--patient-type (tip simulacije)
+
+```bash
+python main.py --patient-id 5 --patient-type Normal
+```
+
+**Dozvoljeni `--patient-type`:**
+- Normal
+- Hypertension
+- HypertensionWithHighBPM
+- Hypotension
+- HypotensionWithLowBPM
+- Arrhythmia
+- Tachycardia
+- Bradycardia
+- Hypoxia
+- Hyperthermia
+- Hypothermia
+- Diabetic
 
 ## Demo nalozi (Seed podaci)
 
