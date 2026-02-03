@@ -19,7 +19,8 @@ PatientSupport je web aplikacija koja demonstrira primenu event-driven mikroserv
 
 ### Preduslovi
 - **Docker Desktop** (Docker + Docker Compose)
-- **Node.js + npm** (za build/pokretanje frontenda)  
+- **Node.js + npm** (za build/pokretanje frontenda)
+- **- Python 3.x** (za pokretanje skripte koja simulira IoT uredjaje) 
 
 ### 1) Pokretanje backend servisa + infrastrukture (Kafka, SQL Server, Redis)
 Pozicioniraj se u folder **PatientSupport** (gde se nalazi `docker-compose.yml`) i pokreni:
