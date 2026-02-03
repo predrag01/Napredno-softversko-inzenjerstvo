@@ -54,10 +54,9 @@ pip install kafka-python pytz
 
 ### Pokretanje skirpte
 Pozicionirati se u folder _PatientSupport/PatientSuport.DeviceService_
+
 Skripta prima dva argumenta:
-
 --patient-id (ID pacijenta)
-
 --patient-type (tip simulacije)
 
 ```bash
